@@ -1,0 +1,29 @@
+{
+  "name": "icodeforbananas-theme",
+  "displayName": "iCodeForBananas",
+  "description": "iCodeForBananas Dark & Light — ported from the iTerm2 color schemes.",
+  "version": "1.0.0",
+  "publisher": "calkinm",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "iCodeForBananas Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/icodeforbananas-dark-color-theme.json"
+      },
+      {
+        "label": "iCodeForBananas Light",
+        "uiTheme": "vs",
+        "path": "./themes/icodeforbananas-light-color-theme.json"
+      }
+    ]
+  }
+}
